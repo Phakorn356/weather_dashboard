@@ -5,26 +5,26 @@
 }
 
 body {
-  /* Deeper, more modern gradient background */
+  
   background: linear-gradient(135deg, #4b6cb7, #182848); 
   font-family: 'Inter', sans-serif;
-  color: #e0e0e0; /* Softer white for better contrast */
+  color: #e0e0e0; 
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  overflow: auto; /* Ensure content is scrollable */
+  overflow: auto; 
 }
 
 .container {
   width: 100%;
-  max-width: 1000px; /* Slightly wider container */
+  max-width: 1000px; 
 }
 
 .title {
   text-align: center;
-  font-size: 3rem; /* Larger title */
+  font-size: 3rem; 
   font-weight: 700;
   margin-bottom: 3rem;
   letter-spacing: 2px;
@@ -85,11 +85,9 @@ body {
 }
 
 .card {
-  /* Semi-transparent background for glassmorphism */
   background: rgba(255, 255, 255, 0.08); 
-  /* The magic behind the frosted glass effect */
   backdrop-filter: blur(10px); 
-  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  -webkit-backdrop-filter: blur(10px); 
   border-radius: 20px;
   padding: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
